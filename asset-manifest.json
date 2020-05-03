@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/travel_memory_card/static/css/main.13896cc1.chunk.css",
+    "main.js": "/travel_memory_card/static/js/main.cf42260e.chunk.js",
+    "main.js.map": "/travel_memory_card/static/js/main.cf42260e.chunk.js.map",
+    "runtime-main.js": "/travel_memory_card/static/js/runtime-main.d916ffa1.js",
+    "runtime-main.js.map": "/travel_memory_card/static/js/runtime-main.d916ffa1.js.map",
+    "static/js/2.cbf59ec0.chunk.js": "/travel_memory_card/static/js/2.cbf59ec0.chunk.js",
+    "static/js/2.cbf59ec0.chunk.js.map": "/travel_memory_card/static/js/2.cbf59ec0.chunk.js.map",
+    "index.html": "/travel_memory_card/index.html",
+    "precache-manifest.10059902b19b7f0290d88529dacf5b63.js": "/travel_memory_card/precache-manifest.10059902b19b7f0290d88529dacf5b63.js",
+    "service-worker.js": "/travel_memory_card/service-worker.js",
+    "static/css/main.13896cc1.chunk.css.map": "/travel_memory_card/static/css/main.13896cc1.chunk.css.map",
+    "static/js/2.cbf59ec0.chunk.js.LICENSE.txt": "/travel_memory_card/static/js/2.cbf59ec0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d916ffa1.js",
+    "static/js/2.cbf59ec0.chunk.js",
+    "static/css/main.13896cc1.chunk.css",
+    "static/js/main.cf42260e.chunk.js"
+  ]
+}
