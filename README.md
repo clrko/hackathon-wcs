@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Travel Memory Game](/public/img/header.png)
+# Travel Memory Game
+👉[The app is live here](https://travelmemorygame.netlify.app/) 👈 
 
-## Available Scripts
+The **Travel Memory Game** is a front-end web application developed on April 29th/30th during a 24h hackathon at [Wild Code School](https://www.wildcodeschool.com/en-GB) on the topic of travelling from the couch.
 
-In the project directory, you can run:
+We decided to design a game that a user in locked down would play in order to travel by seeing webcam videos of a country of his choice. 
 
-### `npm start`
+In order to play, you first need to select a country and a category. Then, based on these two criteria, a memory game session will be generated. The objective is to find the 8 matching cards to win an access to the webcam of the chosen country.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## The team
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Marjolaine Baratte [Github](https://github.com/marjowolff) - [LinkedIn](https://www.linkedin.com/in/marjolainebaratte/)
+* Lola Donval [Github](https://github.com/Lola-D) - [LinkedIn](https://www.linkedin.com/in/lola-donval/)
+* Sébastien Gruet [Github](https://github.com/SebG-prog) - [LinkedIn](https://www.linkedin.com/in/sebastien-gruet/)
+* Lena Hailin Sim [Github](https://github.com/Lenasim) - [LinkedIn](https://www.linkedin.com/in/lena-hailin-sim/)
+* Claire Kodia [Github](https://github.com/clrko') - [LinkedIn](https://www.linkedin.com/in/clairekodia/)
+* Aristide Ouedraogo[Github](https://github.com/ariomega) - [LinkedIn](https://www.linkedin.com/in/aristide-ouedraogo/)
 
-### `npm test`
+## The project
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The projet has been developed as part of the web developement training program at [Wild Code School](https://www.wildcodeschool.com/en-GB) during a 24h hackathon (April 2020). 
 
-### `npm run build`
+Developing a game has been a good way to materialize what we had been learning during the first one and half months of the program, to consolidate our skills in React.js, to manipulate data using an API and learn how to use the React.js State Hooks.
+ 
+## Features
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* Choice between multiple countries
+* Choice between 6 images categories
+* Game session to try and find the 8 matching pairs
+* Access to the webcams of the choosen country at the end of the game session
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
 
-### `npm run eject`
+* React.js (State Hooks)
+* JavaScript
+* HTML5
+* CSS3
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Hosting
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Netlify 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## API used
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* [Pixabay](https://pixabay.com/api/docs/): we got from the api the images to be displayed in the game session based on 2 parameters: the country and the category (beach, nature etc.)
+* [Windy](https://api.windy.com/webcams/docs): we got an access to a repository of webcams based on the country selected by the user.
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div style="display:flex; justify-content:space-around; margin:30px 0;">
+<img src="/public/img/travel_memory_game_homepage.png" alt="homepage desktop" style="width:200px heigth:auto"/>
+<img src="/public/img/travel_memory_game_gamesession.png" alt="game session desktop" style="width:200px heigth:auto"/>
+<img src="/public/img/travel_memory_game_webcam.png" alt="webcam desktop" style="width:200px heigth:auto"/>
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## In the project directory, you can run:
+* `npm install`
+* `npm start`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+These commands install the dependencies and start the app in the developement mode.
