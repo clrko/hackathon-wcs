@@ -2,11 +2,7 @@
 # Travel Memory Game
 👉[The app is live here](https://travelmemorygame.netlify.app/) 👈 
 
-The **Travel Memory Game** is a front-end web application developed on April 29th/30th during a 24h hackathon at [Wild Code School](https://www.wildcodeschool.com/en-GB) on the topic of travelling from the couch.
-
-We decided to design a game that a user in locked down would play in order to travel by seeing webcam videos of a country of his choice. 
-
-In order to play, you first need to select a country and a category. Then, based on these two criteria, a memory game session will be generated. The objective is to find the 8 matching cards to win an access to the webcam of the chosen country.
+The **Travel Memory Game** is a front-end web application developed on April 29th/30th during a 24h remote hackathon at [Wild Code School](https://www.wildcodeschool.com/en-GB) on the topic of travelling from the couch.
 
 ## The team
 
@@ -19,12 +15,15 @@ In order to play, you first need to select a country and a category. Then, based
 
 ## The project
 
-The projet has been developed as part of the web developement training program at [Wild Code School](https://www.wildcodeschool.com/en-GB) during a 24h hackathon (April 2020). 
+The projet has been developed as part of the web developement training program at [Wild Code School](https://www.wildcodeschool.com/en-GB) during a 24h remote hackathon (April 2020). 
 
-Developing a game has been a good way to materialize what we had been learning during the first one and half months of the program, to consolidate our skills in React.js, to manipulate data using an API and learn how to use the React.js State Hooks.
+We decided to design a game that a user in locked down would play in order to travel by seeing webcam videos of a country of his choice. 
+
+In order to play, you first need to select a country and a category. Then, based on these two criteria, a memory game session will be generated. The objective is to find the 8 matching cards to win an access to the webcam of the chosen country.
+
+Developing a game has been a good way to materialize what we had been learning during the first one and half months of the program. We managed to consolidate our skills in React.js, to manipulate data using an API and learn how to use the React.js State Hooks. This hackathon has been an even more challenging project as we needed to work remotely.
  
 ## Features
-
 
 * Choice between multiple countries
 * Choice between 6 images categories
